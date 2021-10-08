@@ -1,0 +1,25 @@
+{
+  "name": "noderestapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "pg-promise": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
